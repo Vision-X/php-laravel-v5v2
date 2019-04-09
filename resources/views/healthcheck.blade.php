@@ -1,11 +1,11 @@
 @extends('layout')
 
 @section('title')
-Laravel Basics
+Laravel Health Check
 @stop
 
 @section('content')
 <div class="title">
-  Working with blades and template layouts with PHP/Laravel
+    PHP/LARAVEL up and running...
 </div>
 @stop
