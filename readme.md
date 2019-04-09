@@ -1,27 +1,21 @@
-# Laravel PHP Framework
+# PHP / LARAVEL / COMPOSER / ARTISAN
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+## Notes
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+1) PHP: Server scripting language, powerful for making dynamic and interactive web apps. Free, open-source alternative to Microsoft's ASP
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+[PHP Manual](https://www.php.net/manual/en/)
 
-## Official Documentation
+1) Laravel: Free, Open-source PHP web framework intended for web apps leveraging the MVC architectural pattern.
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+[Laravel Docs](https://laravel.com/docs/5.8)
 
-## Contributing
+1) Composer: A tool for dependency management in PHP. It allows you to declare the libraries your project depends on and it will manage them for you. Strongly inspired by node's npm and ruby's bundler.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+Note: Requires PHP v5.3.2+
 
-## Security Vulnerabilities
+[Composer Docs](https://getcomposer.org/doc/01-basic-usage.md)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+1) Artisan: Command-line interface included with Laravel. It provides a number of helpful commands for use while developing. It is driven by the Symfony Console component.
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+[Artisan Docs](https://laravel.com/docs/5.0/artisan)
