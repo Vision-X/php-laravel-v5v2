@@ -15,7 +15,6 @@ About
         <a href="/healthcheck">Health Check</a>
       </li>
       <li>
-        <!-- <a href="/about">About</a> -->
         <p>About</p>
       </li>
       <li>

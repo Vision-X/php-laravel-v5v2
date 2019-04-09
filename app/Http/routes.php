@@ -16,13 +16,13 @@ Route::get('/', function () {
 });
 
 Route::get('/healthcheck', function () {
-  return view('healthcheck');
+    return view('healthcheck');
 });
 
 Route::get('/about', function () {
-  return view('about');
+    return view('about');
 });
 
 Route::get('/php-version', function () {
-  return view('phpVersion');
+    return view('phpVersion');
 });

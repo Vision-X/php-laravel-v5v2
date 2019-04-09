@@ -13,7 +13,7 @@
 
 3) Composer: A tool for dependency management in PHP. It allows you to declare the libraries your project depends on and it will manage them for you. Strongly inspired by node's npm and ruby's bundler.
 
-Note: Requires PHP v5.3.2+
+* Note: Requires PHP v5.3.2+
 
 * [Composer Docs](https://getcomposer.org/doc/01-basic-usage.md)
 

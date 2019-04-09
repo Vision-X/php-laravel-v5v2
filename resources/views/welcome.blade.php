@@ -27,7 +27,7 @@ Laravel Basics
 
 @section('content')
 <div class="title">
-  Welcome to Laravel
+  Introduction to Laravel
 </div>
 @stop
 

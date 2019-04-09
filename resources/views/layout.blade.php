@@ -62,10 +62,6 @@
                 display: inline-block;
             }
 
-            .version {
-                width: fit-content;
-            }
-
             .title {
                 font-size: 96px;
             }
