@@ -92,11 +92,11 @@
         <div class="header">
             @yield('header')
         </div>
-        <div class="container">
-            @yield('content')
-        </div>
         <div class="version">
             @yield('version')
+        </div>
+        <div class="container">
+          @yield('content')
         </div>
         <div class="footer">
             @yield('footer')
