@@ -4,8 +4,34 @@
 Laravel Basics
 @stop
 
+@section('header')
+<header>
+  <nav>
+    <ul>
+      <li>
+        <a href="/">Home</a>
+      </li>
+      <li>
+        <a href="/healthcheck">Health Check</a>
+      </li>
+      <li>
+        <a href="/about">About</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+@stop
+
 @section('content')
 <div class="title">
-  Working with blades and template layouts with PHP/Laravel
+  Welcome to Laravel
 </div>
+@stop
+
+@section('footer')
+<footer>
+  <small>Built with PHP/Laravel using Artisan</small>
+  <br>
+  <small>Dev: Michael Marlow</small>
+</footer>
 @stop

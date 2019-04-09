@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title')
-Laravel Health Check
+About
 @stop
 
 @section('header')
@@ -15,18 +15,27 @@ Laravel Health Check
         <a href="/healthcheck">Health Check</a>
       </li>
       <li>
-        <a href="/about">About</a>
+        <!-- <a href="/about">About</a> -->
+        <p>About</p>
       </li>
     </ul>
   </nav>
 </header>
 @stop
 
+
 @section('content')
 <div class="title">
-    PHP/LARAVEL up and running...
+  Tools used:
+  <ul>
+    <li>PHP</li>
+    <li>Laravel</li>
+    <li>Composer</li>
+    <li>Artisan</li>    
+  </ul>
 </div>
 @stop
+
 
 @section('footer')
 <footer>

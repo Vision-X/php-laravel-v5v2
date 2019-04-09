@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/healthcheck', function () {
   return view('healthcheck');
 });
+
+Route::get('/about', function () {
+  return view('about');
+});
