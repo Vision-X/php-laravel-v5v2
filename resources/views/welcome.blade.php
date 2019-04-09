@@ -9,13 +9,16 @@ Laravel Basics
   <nav>
     <ul>
       <li>
-        <a href="/">Home</a>
+        <p>Home</p>
       </li>
       <li>
         <a href="/healthcheck">Health Check</a>
       </li>
       <li>
         <a href="/about">About</a>
+      </li>
+      <li>
+        <a href="/php-version">PHP version</a>
       </li>
     </ul>
   </nav>

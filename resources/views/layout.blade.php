@@ -30,6 +30,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                text-align: center;
             }
 
             header ul {
@@ -61,24 +62,34 @@
                 display: inline-block;
             }
 
+            .version {
+                width: fit-content;
+            }
+
             .title {
                 font-size: 96px;
             }
 
             .tools {
-              font-size: 48px;
+                font-size: 48px;
             }
 
             .tools ul {
-              list-style: none;
-              display: flex;
-              flex-direction: column;
-              justify-content: space-evenly;
-              align-items: center;
-              margin: 0;
-              padding: 0;
-
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                margin: 0;
+                padding: 0;
             }
+
+            li p {
+                font-style: italic;
+                font-weight: bold;
+                color: black;
+            }
+
         </style>
     </head>
     <body>
@@ -87,6 +98,9 @@
         </div>
         <div class="container">
             @yield('content')
+        </div>
+        <div class="version">
+            @yield('version')
         </div>
         <div class="footer">
             @yield('footer')

@@ -22,3 +22,7 @@ Route::get('/healthcheck', function () {
 Route::get('/about', function () {
   return view('about');
 });
+
+Route::get('/php-version', function () {
+  return view('phpVersion');
+});

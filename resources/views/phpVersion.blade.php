@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title')
-About
+PHP Version
 @stop
 
 @section('header')
@@ -15,30 +15,23 @@ About
         <a href="/healthcheck">Health Check</a>
       </li>
       <li>
-        <!-- <a href="/about">About</a> -->
-        <p>About</p>
+        <a href="/about">About</a>
       </li>
       <li>
-        <a href="/php-version">PHP version</a>
+        <p>PHP Version</p>
       </li>
     </ul>
   </nav>
 </header>
 @stop
 
-
 @section('content')
-<div class="tools">
-  <h3>TOOLS USED:</h3>
-  <ul>
-    <li>PHP</li>
-    <li>Laravel</li>
-    <li>Composer</li>
-    <li>Artisan</li>
-  </ul>
+<div>
+  <?php
+    phpInfo();
+  ?>
 </div>
 @stop
-
 
 @section('footer')
 <footer>
