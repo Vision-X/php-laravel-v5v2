@@ -65,12 +65,18 @@
                 font-size: 96px;
             }
 
-            .title ul {
+            .tools {
+              font-size: 48px;
+            }
+
+            .tools ul {
               list-style: none;
               display: flex;
               flex-direction: column;
               justify-content: space-evenly;
               align-items: center;
+              margin: 0;
+              padding: 0;
 
             }
         </style>

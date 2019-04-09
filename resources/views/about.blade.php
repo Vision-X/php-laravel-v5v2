@@ -25,13 +25,13 @@ About
 
 
 @section('content')
-<div class="title">
-  Tools used:
+<div class="tools">
+  <h3>TOOLS USED:</h3>
   <ul>
     <li>PHP</li>
     <li>Laravel</li>
     <li>Composer</li>
-    <li>Artisan</li>    
+    <li>Artisan</li>
   </ul>
 </div>
 @stop
